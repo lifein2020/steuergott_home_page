@@ -1,5 +1,8 @@
 # Steuergott
 
+**Ссылка  на GitHub Pages**
+* https://lifein2020.github.io/steuergott_home_page/
+
 Responsive development home page of the “Steuergott” website.
 
 ## Functionality:
