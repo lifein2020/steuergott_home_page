@@ -1,0 +1,14 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<svg width="22px" height="22px" viewBox="0 0 22 22" version="1.1" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink">
+    <title>A05CB520-BCF3-4620-A652-BA8F6B98BFCA</title>
+    <g id="Page-1" stroke="none" stroke-width="1" fill="none" fill-rule="evenodd">
+        <g id="Home---Desktop" transform="translate(-734.000000, -513.000000)" stroke="#FFFFFF" stroke-width="2">
+            <g id="Button-outline-negative" transform="translate(587.000000, 498.365293)">
+                <g id="play-button-icon" transform="translate(148.850267, 16.793362)">
+                    <polyline id="Rectangle" transform="translate(7.525414, 9.182335) rotate(-315.000000) translate(-7.525414, -9.182335) " points="5.00536062 6.70238812 10.0454676 6.66228117 10.0053606 11.7023881"></polyline>
+                    <ellipse id="Oval" cx="9.14438503" cy="9" rx="9.14438503" ry="9"></ellipse>
+                </g>
+            </g>
+        </g>
+    </g>
+</svg>

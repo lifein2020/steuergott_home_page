@@ -1,0 +1,19 @@
+.header__subcontainer {
+  display: flex;
+  flex-basis: 1221px;
+  justify-content: space-between;
+  align-items: center;
+  gap: 48px;
+}
+
+@media screen and (max-width: 1560px) {
+  .header__subcontainer {
+    justify-content: flex-end;
+  }
+}
+
+@media screen and (max-width: 540px) {
+  .header__subcontainer {
+    gap: 10px;
+  }
+}

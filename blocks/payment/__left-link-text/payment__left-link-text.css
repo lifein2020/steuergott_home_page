@@ -1,0 +1,28 @@
+.payment__left-link-text {
+  margin: 0;
+  padding-right: 24px;
+  color: #2369E5;
+  text-transform: uppercase;
+  font-family: 'Noto Sans', Arial, sans-serif;
+  font-style: normal;
+  font-weight: 900;
+  font-size: 16px;
+  letter-spacing: 0;
+  line-height: 24px;
+}
+
+@media screen and (max-width: 1024px) {
+  .payment__left-link-text {
+    padding-right: 20px;
+    font-size: 12px;
+    line-height: 17px;
+  }
+}
+
+@media screen and (max-width: 540px) {
+  .payment__left-link-text {
+    padding-right: 15px;
+    font-size: 10px;
+    line-height: 15px;
+  }
+}

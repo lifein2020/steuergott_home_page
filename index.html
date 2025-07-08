@@ -1,0 +1,413 @@
+<!DOCTYPE html>
+<html lang="de">
+<head>
+  <meta charset="UTF-8">
+  <meta http-equiv="X-UA-Compatible" content="IE=edge">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Steuergott</title>
+</head>
+<body class="body">
+  <div class="page">
+    <header class="header">
+      <div class="header__container">
+        <div class="header__logo">
+          <a href="#" target="_blank" class="header__container-logo"></a>
+        </div>
+        <div class="header__subcontainer">
+          <nav class="header__container-menu">
+            <ul class="header__container-menu-items">
+              <li class="header__container-menu-item">
+                  <a href="#" class="header__container-menu-link header__container-menu-link_active">Sofortauszahlung</a>
+              </li>
+              <li class="header__container-menu-item">
+                  <a href="#" class="header__container-menu-link">Deine Vorteile</a>
+              </li>
+              <li class="header__container-menu-item">
+                  <a href="#" class="header__container-menu-link">Unsere Mission</a>
+              </li>
+              <li class="header__container-menu-item">
+                  <a href="#" class="header__container-menu-link">Was musst du machen?</a>
+              </li>
+              <li class="header__container-menu-item">
+                  <a href="#" class="header__container-menu-link">Preise</a>
+              </li>
+              <li class="header__container-menu-item">
+                  <a href="#" class="header__container-menu-link">Unsere Kunden</a>
+              </li>
+              <li class="header__container-menu-item">
+                  <a href="#" class="header__container-menu-link">FAQ</a>
+              </li>
+              <li class="header__container-menu-item">
+                  <a href="#" class="header__container-menu-link">Wissen</a>
+              </li>
+            </ul>
+
+            <div class="hamburger">
+              <span class="hamburger__bar"></span>
+              <span class="hamburger__bar"></span>
+              <span class="hamburger__bar"></span>
+            </div>
+
+          </nav>
+          <button type="button" class="header__container-button">
+            <span class="header__container-button-text">Login</span>
+            <img src="<%=require('./images/arrow-button-icon.svg')%>" alt="Arrow" class="header__container-button-icon">
+          </button>
+        </div>
+      </div>
+
+      <div class="header__payout">
+        <div class="left">
+          <h1 class="left__title">Deine Steuererstattung morgen auf deinem Konto</h1>
+          <p class="left__subtitle">Die einfachste & erste Online-Steuererklärung mit Sofortauszahlung</p>
+          <div class="left__buttons">
+            <button type="button" class="left__button-start">
+              <span class="left__button-start-text">Kostenlos starten</span>
+              <span class="arrow arrow_blue"></span>
+            </button>
+            <button type="button" class="left__button-watch">
+              <span class="left__button-watch-text">Video ansehen</span>
+              <img src="<%=require('./images/play-button-icon.svg')%>" alt="Arrow" class="left__button-watch-icon">
+            </button>
+          </div>
+        </div>
+        <div class="right">
+          <img src="<%=require('./images/hero-illu.png')%>" alt="Сalculations" class="illustration">
+        </div>
+      </div>
+    </header>
+
+    <img src="<%=require('./images/preis-bg.svg')%>" alt="Symbols" class="content__backside-image">
+
+    <main class="content">
+      <section class="payment">
+        <div class="payment__left">
+          <h2 class="payment__left-title">In 24 Stunden dein Geld auf deinem Konto</h2>
+           <h3 class="payment__left-subtitle">Schnell. Einfach. Sicher.</h3>
+           <a href="#" target="_blank" class="payment__left-link">
+            <p class="payment__left-link-text">Jetzt ausprobieren</p>
+            <img src="<%=require('./images/arrow-link-icon.svg')%>" alt="Arrow" class="payment__left-link-arrow">
+           </a>
+        </div>
+        <div class="payment__right">
+          <p class="payment__right-text">Das Finanzamt braucht regelmäßig bis zu 4 Monate oder sogar länger, bis es deine Steuererstattung bearbeitet hat. Darauf möchtest du nicht warten? Wir haben für dich die Lösung. Zusammen mit der Novum Bank finanzieren wir deine Steuererstattung vor, sodass sie in bis zu 24 Stunden auf deinem Konto ist.<br></br>Dazu gewährt dir unser Geschäftspartner die Novum Bank unter Vorlage unserer Erstattungsberechnung einen Kredit in Höhe von bis zu 80% deiner Steuererstattung. Mit der Steuererstattung kannst du dann deinen Kredit tilgen. Ist deine Erstattung höher, bleibt dir der Überschuss vollständig.
+          </p>
+        </div>
+      </section>
+
+      <section class="advantages">
+        <div class="advantages__left">
+          <h2 class="advantages__left-title">Steuererklärung online –
+            deine Vorteile</h2>
+            <article class="advantages__left-item">
+              <div class="advantages__left-item-container">
+                <img src="<%=require('./images/belege-icon.svg')%>" alt="List" class="advantages__left-item-image">
+                <h3 class="advantages__left-item-subtitle">Wenige Belege
+                fotografieren.</h3>
+              </div>
+              <p class="advantages__left-item-text">Zusammen mit der Novum Bank finanzieren wir dir das Geld vor. Mit Steuergott ist deine Steuer in bis zu 24 Stunden auf deinem Konto.</p>
+            </article>
+            <article class="advantages__left-item">
+              <div class="advantages__left-item-container">
+                <img src="<%=require('./images/autoerstellung-icon.svg')%>" alt="Magic wand" class="advantages__left-item-image">
+                <h3 class="advantages__left-item-subtitle">Automatische & intelligente Erstellung.</h3>
+              </div>
+              <p class="advantages__left-item-text">Du fotografierst einfach deine Lohnsteuerbescheinigung und Steuergott erstellt damit deine Steuererklärung online.</p>
+            </article>
+            <article class="advantages__left-item">
+              <div class="advantages__left-item-container">
+                <img src="<%=require('./images/geld-icon.svg')%>" alt="Hands" class="advantages__left-item-image">
+              <h3 class="advantages__left-item-subtitle">Geld in bis zu 24 Stunden auf deinem Konto.</h3>
+              </div>
+              <p class="advantages__left-item-text">Deine Daten liegen auf einem deutschen Server, passwortgeschützt und SSI-verschlüsselt. Wir übertragen sie geschützt an dein Finanzamt.</p>
+            </article>
+        </div>
+        <div class="advantages__right">
+          <img src="<%=require('./images/online-steuererklaerung.png')%>" alt="Phone in hands" class="illustration">
+        </div>
+      </section>
+
+      <section class="functionality">
+        <h2 class="functionality__title">So funktioniert´s</h2>
+        <div class="functionality__container">
+          <div class="functionality__left">
+            <img src="<%=require('./images/so-funktionierts.png')%>" alt="App on phone" class="illustration illustration_indent">
+            <button type="button" class="button button_center">
+              <span class="button__text">Kostenlos starten</span>
+              <span class="arrow arrow_white"></span>
+            </button>
+          </div>
+          <div class="functionality__right">
+            <article class="functionality__item">
+              <p class="functionality__item-num">01</p>
+              <img src="<%=require('./images/fotografieren-icon.svg')%>" alt="Camera" class="functionality__item-icon">
+              <h3 class="functionality__item-text">Fotografiere deine Lohnsteuerbescheinigung.</h3>
+            </article>
+            <article class="functionality__item">
+              <p class="functionality__item-num">02</p>
+              <img src="<%=require('./images/lohnersatzleistungen-icon.svg')%>" alt="Sheet" class="functionality__item-icon">
+              <h3 class="functionality__item-text">Mache ggf. weitere<br>Fotos von Lohnersatzleistungen.</h3>
+            </article>
+            <article class="functionality__item">
+              <p class="functionality__item-num">03</p>
+              <img src="<%=require('./images/ausgaben-icon.svg')%>" alt="Todolist" class="functionality__item-icon">
+              <h3 class="functionality__item-text">Fotografiere deine Ausgaben,<br>wie z. B. Versicherungen.</h3>
+            </article>
+            <article class="functionality__item">
+              <p class="functionality__item-num">04</p>
+              <img src="<%=require('./images/optimierung-icon.svg')%>" alt="Magic wand" class="functionality__item-icon">
+              <h3 class="functionality__item-text">Steuergott optimiert und erstellt deine Steuererklärung online.</h3>
+            </article>
+            <article class="functionality__item">
+              <p class="functionality__item-num">05</p>
+              <img src="<%=require('./images/sanduhr-icon.svg')%>" alt="Hourglass" class="functionality__item-icon">
+              <h3 class="functionality__item-text">Du entscheidest wie schnell du deine Erstattung haben willst.</h3>
+            </article>
+          </div>
+        </div>
+      </section>
+
+      <section class="prices">
+        <h2 class="prices__title">Preis – du hast die Wahl</h2>
+        <p class="prices__text">Mit der Vorfinanzierung deiner Steuererstattung als Microkredit über unseren Partner Cashper hast du dein Geld schon Morgen auf deinem Konto – schnell und einfach. Den Kredit tilgst du dann mit deiner Steuererstattung.</p>
+        <div class="prices__cards">
+          <article class="prices__card">
+            <h3 class="prices__card-title">Standard</h3>
+            <img src="<%=require('./images/standard-illu.png')%>" alt="Thinking person" class="prices__card-image">
+            <h3 class="prices__card-subtitle">Einmalig</h3>
+            <p class="prices__card-value">29,00 &#8364;</p>
+            <p class="prices__card-text">pro Steuerklärung</p>
+            <img src="<%=require('./images/check-icon.svg')%>" alt="Check" class="prices__card-icon">
+            <p class="prices__card-text-second">Geld in 2 Monaten oder später</p>
+            <img src="<%=require('./images/check-icon.svg')%>" alt="Check" class="prices__card-icon">
+            <p class="prices__card-text">100 % Sofortauszahlung</p>
+            <button type="button" class="prices__card-button">
+              <span class="prices__card-button-text">Los</span>
+              <span class="arrow arrow_blue"></span>
+            </button>
+          </article>
+          <article class="prices__card">
+            <h3 class="prices__card-title">Schnell</h3>
+            <img src="<%=require('./images/schnell-illu.png')%>" alt="Hourglass" class="prices__card-image-two">
+            <h3 class="prices__card-subtitle">Einmalig</h3>
+            <p class="prices__card-value">39,00 &#8364;</p>
+            <p class="prices__card-text">pro Steuerklärung</p>
+            <img src="<%=require('./images/check-icon.svg')%>" alt="Check" class="prices__card-icon">
+            <p class="prices__card-text-second">Geld in 10 Tagen</p>
+            <img src="<%=require('./images/check-icon.svg')%>" alt="Check" class="prices__card-icon">
+            <p class="prices__card-text">80 % Sofortauszahlung</p>
+              <button type="button" class="prices__card-button">
+              <span class="prices__card-button-text">Los</span>
+              <span class="arrow arrow_blue"></span>
+            </button>
+          </article>
+          <article class="prices__card">
+            <h3 class="prices__card-title">Göttlich
+              <img src="<%=require('./images/beliebt-tag.svg')%>" alt="Mark" class="prices__card-popular">
+            </h3>
+            <img src="<%=require('./images/goettlich-illu.png')%>" alt="Man with money" class="prices__card-image-three">
+            <h3 class="prices__card-subtitle">Einmalig</h3>
+            <p class="prices__card-value">49,00 &#8364;</p>
+            <p class="prices__card-text">pro Steuerklärung</p>
+            <img src="<%=require('./images/check-icon.svg')%>" alt="Check" class="prices__card-icon">
+            <p class="prices__card-text-second">Geld innerhalb von 24 Stunden</p>
+            <img src="<%=require('./images/check-icon.svg')%>" alt="Check" class="prices__card-icon">
+            <p class="prices__card-text">70 % Sofortauszahlung</p>
+              <button type="button" class="prices__card-button">
+              <span class="prices__card-button-text">Los</span>
+              <span class="arrow arrow_blue"></span>
+            </button>
+          </article>
+        </div>
+
+        <h3 class="prices__subtitle">Und das Beste:</h3>
+        <p class="prices__text">Die Gebühr für Steuergott zahlst du erst, wenn das Finanzamt deine Steuererklärung bearbeitet hat.<br>Bist du nicht zur Abgabe verpflichtet, zahlst du nur dann für Steuergott, wenn deine Erstattung über 60 Euro beträgt.
+        </p>
+      </section>
+
+      <section class="reviews">
+        <h2 class="slide__title">Das sagen unsere User</h2>
+
+        <!-- <div class="swiper mySwiper">
+          <div class="swiper-wrapper">
+            <div class="swiper-slide">Slide 1
+              <p class="swiper-slide__text">Letztes Jahr habe ich ein ganzes Wochenende gebraucht, um mich durch zig Programme zu quälen, jetzt ging alles aber super leicht mit Steuergott. Nächstes Jahr ist schon geplant!</p>
+            </div>
+            <div class="swiper-slide">Slide 2
+              <p class="swiper-slide__text">Letztes Jahr habe ich ein ganzes Wochenende gebraucht, um mich durch zig Programme zu quälen, jetzt ging alles aber super leicht mit Steuergott. Nächstes Jahr ist schon geplant!</p>
+            </div>
+            <div class="swiper-slide">Slide 3
+              <p class="swiper-slide__text">Letztes Jahr habe ich ein ganzes Wochenende gebraucht, um mich durch zig Programme zu quälen, jetzt ging alles aber super leicht mit Steuergott. Nächstes Jahr ist schon geplant!</p>
+            </div>
+            <div class="swiper-slide">Slide 4
+              <p class="swiper-slide__text">Letztes Jahr habe ich ein ganzes Wochenende gebraucht, um mich durch zig Programme zu quälen, jetzt ging alles aber super leicht mit Steuergott. Nächstes Jahr ist schon geplant!</p>
+            </div>
+          </div>
+          <div class="swiper-button-next"></div>
+          <div class="swiper-button-prev"></div>
+          <div class="swiper-pagination"></div>
+        </div> -->
+
+        <div class="flex-wrapper">
+          <div class="slider-wrapper">
+            <div class="slide slide_active">
+              <p class="slide__text">Letztes Jahr habe ich ein ganzes Wochenende gebraucht, um mich durch zig Programme zu quälen, jetzt ging alles aber super leicht mit Steuergott. Nächstes Jahr ist schon geplant!</p>
+              <h3 class="slide__subtitle">Sabine K.</h3>
+              <div class="slide__grade">
+                <img src="<%=require('./images/star-icon.svg')%>" alt="Star" class="slide__star">
+                <img src="<%=require('./images/star-icon.svg')%>" alt="Star" class="slide__star">
+                <img src="<%=require('./images/star-icon.svg')%>" alt="Star" class="slide__star">
+                <img src="<%=require('./images/star-icon.svg')%>" alt="Star" class="slide__star">
+                <img src="<%=require('./images/star-icon.svg')%>" alt="Star" class="slide__star">
+              </div>
+             <p class="slide__comment">5 von 5 Sterne</p>
+            </div>
+            <div class="slide">
+              <p class="slide__text">Letztes Jahr habe ich ein ganzes Wochenende gebraucht, um mich durch zig Programme zu quälen, jetzt ging alles aber super leicht mit Steuergott. Nächstes Jahr ist schon geplant!</p>
+              <h3 class="slide__subtitle">Nicole R.</h3>
+              <div class="slide__grade">
+                <img src="<%=require('./images/star-icon.svg')%>" alt="Star" class="slide__star">
+                <img src="<%=require('./images/star-icon.svg')%>" alt="Star" class="slide__star">
+                <img src="<%=require('./images/star-icon.svg')%>" alt="Star" class="slide__star">
+                <img src="<%=require('./images/star-icon.svg')%>" alt="Star" class="slide__star">
+                <img src="<%=require('./images/star-icon.svg')%>" alt="Star" class="slide__star">
+              </div>
+             <p class="slide__comment">5 von 5 Sterne</p>
+            </div>
+            <div class="slide">
+              <p class="slide__text">Letztes Jahr habe ich ein ganzes Wochenende gebraucht, um mich durch zig Programme zu quälen, jetzt ging alles aber super leicht mit Steuergott. Nächstes Jahr ist schon geplant!</p>
+              <h3 class="slide__subtitle">Sophia B.</h3>
+              <div class="slide__grade">
+                <img src="<%=require('./images/star-icon.svg')%>" alt="Star" class="slide__star">
+                <img src="<%=require('./images/star-icon.svg')%>" alt="Star" class="slide__star">
+                <img src="<%=require('./images/star-icon.svg')%>" alt="Star" class="slide__star">
+                <img src="<%=require('./images/star-icon.svg')%>" alt="Star" class="slide__star">
+                <img src="<%=require('./images/star-icon.svg')%>" alt="Star" class="slide__star">
+              </div>
+             <p class="slide__comment">5 von 5 Sterne</p>
+            </div>
+          </div>
+          <button type="button" class="slide__btn slide__btn_prev">
+            <div class="slide__arrow slide__arrow_left"></div>
+          </button>
+          <button type="button" class="slide__btn slide__btn_next">
+            <div class="slide__arrow slide__arrow_right"></div>
+          </button>
+        </div>
+      </section>
+
+      <section class="customers">
+        <div class="customers__container">
+          <a href="#" target="_blank" rel="noopener noreferrer" >
+            <img src="<%=require('./images/made-in-germany-logo.png')%>" alt="Made in Germany" class="customers__logo-one">
+          </a>
+          <a href="#" target="_blank" rel="noopener noreferrer">
+            <img src="<%=require('./images/proven-expert-logo.png')%>" alt="Proven Expert" class="customers__logo-two">
+          </a>
+          <a href="#" target="_blank" rel="noopener noreferrer">
+            <img src="<%=require('./images/elster-logo.png')%>" alt="Elsten" class="customers__logo-three">
+          </a>
+        </div>
+      </section>
+
+      <section class="mission">
+        <h2 class="mission__title">Unsere Mission</h2>
+        <div class="mission__container">
+          <div class="mission__left">
+            <p class="mission__text">Die meisten Menschen denken, die Steuererklärung wäre zu kompliziert und verschenken deshalb Jahr für Jahr ihr Geld. Damit ist jetzt Schluss!<br><br>
+              Mit Steuergott wollen wir die vereinfachte Steuererklärung online mit Sofortauszahlung bereitstellen. Keine Formulare, keine unnötigen Fragen – nur wenige Klicks und ein paar Fotos.<br><br>
+              Diese vereinfachte Steuererklärung ist nicht nur super praktisch, sondern auch himmlisch schnell: Entscheidest du dich für die Soforterauszahlung über unseren Partner Novum Bank hast du schon morgen dein Geld auf deinem Konto.
+            </p>
+            <button type="button" class="button">
+              <span class="button__text">Kostenlos starten</span>
+              <span class="arrow arrow_white"></span>
+            </button>
+          </div>
+          <div class="mission__right">
+            <img src="<%=require('./images/mission-illu.png')%>" alt="Watering man" class="illustration">
+          </div>
+        </div>
+      </section>
+    </main>
+
+    <footer class="footer">
+      <div class="footer__columns">
+        <div class="footer__column footer__column_content_copyright">
+          <a href="#" target="_blank" class="footer__logo">
+            <img src="<%=require('./images/steuergott-logo.svg')%>" alt="Logo" class="footer__logo-img">
+          </a>
+          <p class="footer__author">&copy; srs-fintech UG</p>
+        </div>
+        <nav class="footer__column footer__column_content_info">
+          <ul class="footer__column-links">
+            <li>
+              <a href="#" target="_self" class="footer__column-link">Deine Vorteile</a>
+            </li>
+            <li>
+              <a href="#" target="_self" class="footer__column-link">Unsere Mission</a>
+            </li>
+            <li>
+              <a href="#" target="_self" class="footer__column-link">Was musst du machen?</a>
+            </li>
+            <li>
+              <a href="#" target="_self" class="footer__column-link">Preise</a>
+            </li>
+            <li>
+              <a href="#" target="_self" class="footer__column-link">Unsere Kunden</a>
+            </li>
+            <li>
+              <a href="#" target="_self" class="footer__column-link">FAQ</a>
+            </li>
+          </ul>
+        </nav>
+        <nav class="footer__column footer__column_content_inform">
+          <ul class="footer__column-links">
+            <li>
+              <a href="#" target="_self" class="footer__column-link">Kontakt</a>
+            </li>
+            <li>
+              <a href="#" target="_self" class="footer__column-link">AGB</a>
+            </li>
+            <li>
+              <a href="#" target="_self" class="footer__column-link">Impressum</a>
+            </li>
+            <li>
+              <a href="#" target="_self" class="footer__column-link">Datenschutzerklärung</a>
+            </li>
+            <li>
+              <a href="#" target="_self" class="footer__column-link">Wissen</a>
+            </li>
+          </ul>
+        </nav>
+        <nav class="footer__column footer__column_content_social">
+          <h2 class="footer__column-heading">Besuchen Sie uns auf Social Media!</h2>
+          <ul class="footer__column-links">
+            <li>
+              <a href="https://www.facebook.com" target="_blank" class="footer__column-link">
+                <img class="footer__social-icon" src="<%=require('./images/facebook-logo.svg')%>" alt="Facebook">
+                <p>Facebook</p>
+
+              </a>
+            </li>
+            <li>
+              <a href="https://www.instagram.com" target="_blank" class="footer__column-link">
+                <img class="footer__social-icon" src="<%=require('./images/instagram-logo.svg')%>" alt="Instagram">
+                <p>Instagram</p>
+              </a>
+            </li>
+          </ul>
+        </nav>
+      </div>
+    </footer>
+  </div>
+
+  <div class="popup popup_type_video">
+    <iframe class="popup__video" id="ytplayer" src="https://www.youtube.com/embed/yllvNJ5mZx0" title="YouTube video player" allowfullscreen></iframe>https://youtu.be/yllvNJ5mZx0?si=YxIToDppS_tW9qxD
+  </div>
+
+</body>
+</html>
+
+
+
+

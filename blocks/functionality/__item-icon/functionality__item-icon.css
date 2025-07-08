@@ -1,0 +1,9 @@
+.functionality__item-icon {
+  max-width: 68px;
+}
+
+@media screen and (max-width: 768px) {
+  .functionality__item-icon {
+    max-width: 38px;
+  }
+}

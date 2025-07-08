@@ -1,0 +1,7 @@
+.arrow {
+  height: 7px;
+  width: 7px;
+  border-top: 2px solid;
+  border-right: 2px solid;
+  transform: rotate(45deg);
+}

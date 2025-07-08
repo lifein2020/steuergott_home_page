@@ -1,0 +1,9 @@
+.slide__arrow {
+  margin: auto;
+  box-sizing: border-box;
+  height: 17px;
+  width: 17px;
+  border-top: 3px solid #2369E5;;
+  border-right: 3px solid #2369E5;;
+  /* transform: rotate(225deg);/ */
+}

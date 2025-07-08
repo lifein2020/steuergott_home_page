@@ -1,0 +1,21 @@
+.footer__column_content_social {
+
+}
+
+@media screen and (max-width: 767px) {
+  .footer__column_content_social {
+    order: 2;
+  }
+}
+
+@media screen and (max-width: 539px) {
+  .footer__column_content_social {
+    flex-basis: 100px;
+  }
+}
+
+@media screen and (max-width: 375px) {
+  .footer__column_content_social {
+    flex-basis: 30px;
+  }
+}

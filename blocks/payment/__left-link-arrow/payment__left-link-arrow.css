@@ -1,0 +1,17 @@
+.payment__left-link-arrow {
+  height: 12px;
+  width: 48px;
+}
+@media screen and (max-width: 768px) {
+  .payment__left-link-arrow {
+    height: 11px;
+    width: 40px;
+  }
+}
+
+@media screen and (max-width: 540px) {
+  .payment__left-link-arrow {
+    height: 9px;
+    width: 35px;
+  }
+}

@@ -1,0 +1,32 @@
+.payment__right-text {
+  margin: 0;
+  max-width: 583px;
+  font-family: 'Noto Sans', Arial, sans-serif;
+  font-style: normal;
+  font-weight: 400;
+  font-size: 16px;
+  letter-spacing: 0;
+  line-height: 33px;
+}
+
+
+@media screen and (max-width: 1024px) {
+  .payment__right-text {
+    font-size: 14px;
+    line-height: 29px;
+  }
+}
+
+@media screen and (max-width: 768px) {
+  .payment__right-text {
+    font-size: 11px;
+    line-height: 22px;
+  }
+}
+
+@media screen and (max-width: 540px) {
+  .payment__right-text {
+    font-size: 9px;
+    line-height: 18px;
+  }
+}

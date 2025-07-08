@@ -1,0 +1,5 @@
+.advantages__left-item-container {
+  display: flex;
+  align-items: center;
+  padding-bottom: 11px;
+}

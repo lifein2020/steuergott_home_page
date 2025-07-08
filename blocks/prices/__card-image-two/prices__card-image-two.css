@@ -1,0 +1,9 @@
+.prices__card-image-two {
+  max-width: 209.66px;
+}
+
+@media screen and (max-width: 1400px) {
+  .prices__card-image-two {
+    max-width: 165px;
+  }
+}

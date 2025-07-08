@@ -1,0 +1,39 @@
+.prices__title {
+  margin: 0 auto;
+  color: #2369E5;
+  font-family: 'Noto Sans', Arial, sans-serif;
+  font-style: normal;
+  font-weight: 900;
+  font-size: 42px;
+  letter-spacing: 0;
+  line-height: 62px;
+  text-align: center;
+}
+
+@media screen and (max-width: 1024px) {
+  .prices__title {
+    font-size: 30px;
+    line-height: 44px;
+  }
+}
+
+@media screen and (max-width: 768px) {
+  .prices__title {
+    font-size: 25px;
+    line-height: 37px;
+  }
+}
+
+@media screen and (max-width: 540px) {
+  .prices__title {
+    font-size: 22px;
+    line-height: 32px;
+  }
+}
+
+@media screen and (max-width: 414px) {
+  .prices__title {
+    font-size: 18px;
+    line-height: 26px;
+  }
+}

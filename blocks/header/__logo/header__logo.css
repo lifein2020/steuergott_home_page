@@ -1,0 +1,4 @@
+.header__logo {
+  display: flex;
+  flex-basis: 200px;
+}

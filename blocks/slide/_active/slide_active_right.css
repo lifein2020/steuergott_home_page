@@ -1,0 +1,10 @@
+.slide_active_right {
+  display: block;
+  animation: ani 1s backwards; /*forwards*/
+}
+
+@keyframes ani {
+  0% {transform: translateX(150%);}
+  100% {transform: translateY(0);}
+}
+

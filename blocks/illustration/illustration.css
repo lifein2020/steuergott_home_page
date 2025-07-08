@@ -1,0 +1,17 @@
+.illustration {
+  max-width: 584px;
+
+}
+
+@media screen and (max-width: 1500px) {
+  .illustration {
+    max-width: 420px;
+  }
+}
+
+@media screen and (max-width: 1024px) {
+  .illustration {
+    max-width: 88%;
+    text-align: center;
+  }
+}

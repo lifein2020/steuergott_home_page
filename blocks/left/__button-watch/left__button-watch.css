@@ -1,0 +1,17 @@
+.left__button-watch {
+  padding: 0;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  cursor: pointer;
+  height: 53px;
+  width: 192.49px;
+  border: 3px solid #FFFFFF;
+  background-color: #2369E5;
+  transform: opacity .2s ease-in;
+  outline: none;
+}
+
+.left__button-watch:hover {
+  opacity: 0.8;
+}

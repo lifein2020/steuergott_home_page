@@ -1,0 +1,15 @@
+.functionality__item {
+  display: flex;
+  align-items: center;
+  padding-bottom: 48px;
+}
+
+.functionality__item:last-child {
+  padding-bottom: 0px;
+}
+
+@media screen and (max-width: 768px) {
+  .functionality__item {
+    padding-bottom: 30px;
+  }
+}

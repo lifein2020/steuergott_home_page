@@ -1,0 +1,18 @@
+.prices__cards {
+  display: flex;
+  justify-content: space-between;
+  flex-direction: row;
+  gap: 36px;
+  padding: 69px 0 64px 0;
+  background-color: #FFFFFF;
+}
+
+@media screen and (max-width: 1024px) {
+  .prices__cards {
+    flex-direction: column;
+    gap: 36px;
+    align-items: center;
+  }
+}
+
+

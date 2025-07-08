@@ -1,0 +1,12 @@
+.prices__card-value {
+  margin: 0;
+  padding-bottom: 18px;
+  color: #2369E5;
+  font-family: 'Noto Sans', Arial, sans-serif;
+  font-style: normal;
+  font-weight: 900;
+  font-size: 42px;
+  letter-spacing: 0;
+  line-height: 33px;
+  text-align: center;
+}

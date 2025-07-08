@@ -1,0 +1,24 @@
+.left__buttons {
+  display: flex;
+  justify-items: flex-start;
+}
+
+@media screen and (max-width: 1280px) {
+  .left__buttons {
+    max-width: 400px;
+  }
+}
+
+
+@media screen and (max-width: 1024px) {
+  .left__buttons {
+    padding-bottom: 40px;
+  }
+}
+
+@media screen and (max-width: 540px) {
+  .left__buttons {
+    flex-direction: column;
+    gap: 24px;
+  }
+}

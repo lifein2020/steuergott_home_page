@@ -1,0 +1,9 @@
+.functionality {
+  padding-top: 156px;
+}
+
+@media screen and (max-width: 768px) {
+  .functionality {
+    padding-top: 100px;
+  }
+}

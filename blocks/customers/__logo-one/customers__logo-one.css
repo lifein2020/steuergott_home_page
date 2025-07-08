@@ -1,0 +1,30 @@
+.customers__logo-one {
+  width: 100%;
+  text-decoration: none;
+  transform: opasity .2s ease-in;
+}
+
+.customers__logo-one:hover {
+  opacity: 0.8;
+}
+
+@media screen and (max-width: 768px) {
+  .customers__logo-one {
+    max-width: 140px;
+    text-align: center;
+  }
+}
+
+@media screen and (max-width: 540px) {
+  .customers__logo-one {
+    max-width: 100px;
+    text-align: center;
+  }
+}
+
+@media screen and (max-width: 412px) {
+  .customers__logo-one {
+    max-width: 80px;
+    text-align: center;
+  }
+}

@@ -1,0 +1,9 @@
+.advantages__left-item-image {
+  max-width: 100%;
+}
+
+@media screen and (max-width: 768px) {
+  .advantages__left-item-image {
+    max-width: 38px;
+  }
+}

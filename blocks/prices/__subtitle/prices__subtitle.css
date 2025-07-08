@@ -1,0 +1,12 @@
+.prices__subtitle {
+  margin: auto;
+  max-width: 996px;
+  color: #2369E5;
+  font-family: 'Noto Sans', Arial, sans-serif;
+  font-style: normal;
+  font-weight: 700;
+  font-size: 22px;
+  letter-spacing: 0;
+  line-height: 33px;
+  text-align: center;
+}

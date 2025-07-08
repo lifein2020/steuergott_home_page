@@ -1,0 +1,42 @@
+.slide__subtitle {
+  margin: 0;
+  padding-top: 48px;
+  color: #2369E5;
+  font-family: 'Noto Sans', Arial, sans-serif;
+  font-style: normal;
+  font-weight: 700;
+  font-size: 22px;
+  letter-spacing: 0;
+  line-height: 33px;
+  text-align: center;
+}
+
+@media screen and (max-width: 1024px) {
+  .slide__subtitle {
+    font-size: 16px;
+    line-height: 24px;
+  }
+}
+
+@media screen and (max-width: 768px) {
+  .slide__subtitle {
+    padding-top: 32px;
+    font-size: 13px;
+    line-height: 19px;
+  }
+}
+
+@media screen and (max-width: 540px) {
+  .slide__subtitle {
+    padding-top: 22px;
+    font-size: 12px;
+    line-height: 18px;
+  }
+}
+
+@media screen and (max-width: 414px) {
+  .slide__subtitle {
+    font-size: 11px;
+    line-height: 15px;
+  }
+}

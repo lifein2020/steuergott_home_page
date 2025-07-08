@@ -1,0 +1,6 @@
+ @media screen and (max-width: 1560px) {
+  .header__container-menu-items_active {
+    left: 0;
+  }
+ }
+

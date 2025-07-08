@@ -1,0 +1,9 @@
+.hamburger__bar {
+  display: block;
+  width: 40px;
+  height: 3px;
+  margin: 10px auto;
+  background-color: #FFFFFF;
+  transition: all 0.3s ease-in-out;
+}
+

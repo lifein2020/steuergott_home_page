@@ -1,0 +1,43 @@
+.swiper-slide__text {
+  margin: 0 auto;
+  padding-top: 98px;
+  max-width: 997px;
+  font-family: 'Noto Sans', Arial, sans-serif;
+  font-style: normal;
+  font-weight: 400;
+  font-size: 22px;
+  letter-spacing: 0;
+  line-height: 40px;
+  text-align: center;
+}
+
+@media screen and (max-width: 1024px) {
+  .swiper-slide__text {
+    font-size: 16px;
+    line-height: 28px;
+  }
+}
+
+@media screen and (max-width: 768px) {
+  .swiper-slide__text {
+    padding-top: 60px;
+    font-size: 13px;
+    line-height: 21px;
+  }
+}
+
+@media screen and (max-width: 540px) {
+  .swiper-slide__text {
+    padding-top: 50px;
+    font-size: 12px;
+    line-height: 20px;
+  }
+}
+
+@media screen and (max-width: 414px) {
+  .swiper-slide__text {
+    font-size: 11px;
+    line-height: 18px;
+  }
+}
+

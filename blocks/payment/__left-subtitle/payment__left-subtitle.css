@@ -1,0 +1,38 @@
+.payment__left-subtitle {
+  margin: 0;
+  padding: 21px 0 126px 0;
+  font-family: 'Noto Sans', Arial, sans-serif;
+  font-style:  normal;
+  font-weight: 700;
+  font-size: 22px;
+  letter-spacing: 0;
+  line-height: 33px;
+}
+
+@media screen and (max-width: 1024px) {
+  .payment__left-subtitle {
+    font-size: 16px;
+    line-height: 24px;
+  }
+}
+
+@media screen and (max-width: 768px) {
+  .payment__left-subtitle {
+    font-size: 13px;
+    line-height: 19px;
+  }
+}
+
+@media screen and (max-width: 540px) {
+  .payment__left-subtitle {
+    font-size: 12px;
+    line-height: 18px;
+  }
+}
+
+@media screen and (max-width: 414px) {
+  .payment__left-subtitle {
+    font-size: 11px;
+    line-height: 15px;
+  }
+}

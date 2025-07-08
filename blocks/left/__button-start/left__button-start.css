@@ -1,0 +1,17 @@
+.left__button-start {
+  margin-right: 24px;
+  padding: 0;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  cursor: pointer;
+  height: 53px;
+  width: 207.5px;
+  border: 3px solid #FFFFFF;
+  background-color: #FFFFFF;
+  transform: opacity .2s ease-in;
+}
+
+.left__button-start:hover {
+  opacity: 0.8;
+}

@@ -1,0 +1,15 @@
+.functionality__container {
+  display: flex;
+  justify-content: space-between;
+  align-items: flex-end;
+  flex-direction: row;
+  gap: 36px;
+}
+
+@media screen and (max-width: 1024px) {
+  .functionality__container {
+    flex-direction: column-reverse;
+    align-items: flex-start;
+    gap: 30px;
+  }
+}

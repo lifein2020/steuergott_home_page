@@ -1,0 +1,12 @@
+.mission__container {
+  display: flex;
+  justify-content: space-between;
+  gap: 34.85px;
+}
+
+@media screen and (max-width: 1024px) {
+  .mission__container {
+    flex-direction: column;
+    gap: 30px;
+  }
+}

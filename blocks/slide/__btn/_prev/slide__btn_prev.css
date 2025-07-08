@@ -1,0 +1,16 @@
+.slide__btn_prev {
+  left: -103px;
+}
+
+@media screen and (max-width: 1024px) {
+  .slide__btn_prev {
+    /* left: -52px; */
+    left: -12%;
+  }
+}
+
+/* @media screen and (max-width: 1024px) {
+  .slide__btn_prev {
+    left: -35px;
+  }
+} */

@@ -1,0 +1,27 @@
+.content__backside-image {
+  position: absolute;
+  max-width: 1548px;
+  width: 100%;
+  top: 3277.62px;
+  left: 140px;
+}
+
+@media screen and (max-width: 1366px) {
+  .content__backside-image {
+    top: 3850px;
+    left: 10px;
+  }
+}
+
+@media screen and (max-width: 1280px) {
+  .content__backside-image {
+    top: 3800px;
+    left: 0;
+  }
+}
+
+@media screen and (max-width: 1024px) {
+  .content__backside-image {
+    display: none;
+  }
+}

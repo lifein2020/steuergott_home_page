@@ -1,0 +1,40 @@
+.functionality__item-text {
+  margin: 0;
+  padding-left: 35.5px;
+  max-width: 376px;
+  font-family: 'Noto Sans', Arial, sans-serif;
+  font-style: normal;
+  font-weight: 400;
+  font-size: 22px;
+  letter-spacing: 0;
+  line-height: 33px;
+}
+
+@media screen and (max-width: 1024px) {
+  .functionality__item-text {
+    font-size: 16px;
+    line-height: 24px;
+  }
+}
+
+@media screen and (max-width: 768px) {
+  .functionality__item-text {
+    padding-left: 25.5px;
+    font-size: 13px;
+    line-height: 19px;
+  }
+}
+
+@media screen and (max-width: 540px) {
+  .functionality__item-text {
+    font-size: 12px;
+    line-height: 18px;
+  }
+}
+
+@media screen and (max-width: 414px) {
+  .functionality__item-text {
+    font-size: 11px;
+    line-height: 15px;
+  }
+}

@@ -1,0 +1,17 @@
+.hamburger {
+  display: none;
+  cursor: pointer;
+}
+
+@media(max-width: 1560px) {
+  .hamburger {
+    display: block;
+  }
+}
+
+@media(max-width: 540px) {
+  .hamburger {
+    padding: 20px;
+  }
+}
+

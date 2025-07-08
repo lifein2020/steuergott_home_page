@@ -1,0 +1,7 @@
+.customers__container {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  max-width: 817.96px;
+  margin: auto;
+}

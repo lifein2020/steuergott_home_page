@@ -1,0 +1,14 @@
+.footer__columns {
+  margin: 0 auto;
+  max-width: 65%;
+  display: flex;
+  justify-content: space-between;
+}
+
+@media screen and (max-width: 767px) {
+  .footer__columns {
+    flex-wrap: wrap;
+    gap: 30px 10px;
+    align-self: center;
+  }
+}

@@ -1,0 +1,19 @@
+.functionality__item-num {
+  margin: 0;
+  padding-right: 36px;
+  color: #FFD618;
+  font-family: 'Noto Sans', Arial, sans-serif;
+  font-style: normal;
+  font-weight: 900;
+  font-size: 42px;
+  letter-spacing: 0;
+  line-height: 16px;
+}
+
+@media screen and (max-width: 768px) {
+  .functionality__item-num  {
+    padding-right: 26px;
+    font-size: 35px;
+    line-height: 16px;
+  }
+}

@@ -1,0 +1,15 @@
+.slide__btn_next {
+  left: calc(100% + 52px);
+}
+
+/* @media screen and (max-width: 1024px) {
+  .slide__btn_next {
+    left: 100%;
+  }
+} */
+
+@media screen and (max-width: 540px) {
+  .slide__btn_next {
+    left: 95%;
+  }
+}

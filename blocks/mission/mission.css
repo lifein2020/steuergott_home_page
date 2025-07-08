@@ -1,0 +1,9 @@
+.mission {
+  padding-top: 175.5px;
+}
+
+@media screen and (max-width: 1024px) {
+  .mission {
+    padding-top: 100px;
+  }
+}

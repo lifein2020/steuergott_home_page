@@ -1,0 +1,21 @@
+.advantages__left-item {
+  max-width: 536px;
+  padding-bottom: 47px;
+}
+
+.advantages__left-item:last-child {
+  padding-bottom: 0px;
+}
+
+@media screen and (max-width: 1024px){
+  .advantages__left-item {
+    padding-bottom: 37px;
+  }
+}
+
+@media screen and (max-width: 768px){
+  .advantages__left-item {
+    padding-bottom: 27px;
+  }
+}
+

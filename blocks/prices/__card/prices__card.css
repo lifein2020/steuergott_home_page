@@ -1,0 +1,9 @@
+.prices__card {
+  min-height: 820px;
+  width: 100%;
+  max-width: 377px;
+  text-align: center;
+  box-shadow: 0 10px 30px 0 rgba(35,105,229,0.25);
+  border-radius: 10px;
+  background-color: #FFFFFF;
+}

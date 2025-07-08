@@ -1,0 +1,24 @@
+.header__container-button {
+  padding: 0 3.5px;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  cursor: pointer;
+  height: 53px;
+  flex-basis: 115px;
+  border: 3px solid #FFFFFF;
+  background-color: #2369E5;
+  transform: opacity .2s ease-in;
+  gap: 4.66px;
+}
+
+.header__container-button:hover {
+  opacity: 0.8;
+}
+
+@media screen and (max-width: 540px) {
+  .header__container-button {
+    height: 43px;
+    flex-basis: 115px;
+  }
+}
