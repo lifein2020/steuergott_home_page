@@ -1,12 +1,3 @@
-import './index.css'
-
-  // // core version + navigation, pagination modules:
-  // import Swiper, { Navigation, Pagination } from 'swiper';
-  // // import Swiper and modules styles
-  // import 'swiper/css';
-  // import 'swiper/css/navigation';
-  // import 'swiper/css/pagination';
-
 // modal pop-up of a YouTube video for the button “Video ansehen”
 
 const popupVideo = document.querySelector('.popup_type_video'),
@@ -165,22 +156,3 @@ links.forEach(n => {
   n.addEventListener('click', closeBurgerMenu)
 });
 
-  // // init Swiper:
-  // const swiper = new Swiper('.swiper', {
-  //   // configure Swiper to use modules
-  //   modules: [Navigation, Pagination],
-  //   ...
-  // });
-
-  // const swiper = new Swiper(".mySwiper", {
-  //   cssMode: true,
-  //   navigation: {
-  //     nextEl: ".swiper-button-next",
-  //     prevEl: ".swiper-button-prev",
-  //   },
-  //   // pagination: {
-  //   //   el: ".swiper-pagination",
-  //   // },
-  //   mousewheel: true,
-  //   keyboard: true,
-  // });
